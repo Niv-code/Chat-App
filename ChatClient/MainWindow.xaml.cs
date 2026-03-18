@@ -8,7 +8,7 @@ namespace ChatClient
         {
             InitializeComponent();
 
-            // חיבור המסך (View) למוח שלו (ViewModel)
+            
             DataContext = new ChatViewModel();
         }
     }

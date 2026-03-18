@@ -79,7 +79,7 @@ namespace ChatClient
                 await _stream.WriteAsync(data, 0, data.Length);
 
                 Messages.Add($"Me: {CurrentMessage}");
-                CurrentMessage = string.Empty; // ניקוי תיבת הטקסט אחרי השליחה
+                CurrentMessage = string.Empty; 
             }
         }
     }
